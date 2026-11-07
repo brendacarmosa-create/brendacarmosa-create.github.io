@@ -727,7 +727,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 </style>
 </head>
 <body>
-<canvas id="bg" aria-hidden="true"></canvas><div id="prog" aria-hidden="true"></div>
+<div id="prog" aria-hidden="true"></div>
 
 <div class="wrap">
   <div class="top">
@@ -758,19 +758,23 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
           <li style="--k:var(--c4)"><span class="edu-st">Certificação</span><b>CPA-20</b><span class="edu-in">ANBIMA</span><span class="edu-dt">Certificada</span></li>
           <li style="--k:var(--c3)"><span class="edu-st">Concluído · 2018</span><b>Técnica em Informática</b><span class="edu-in">Programação · IEMA</span><span class="edu-dt">Curso técnico</span></li>
         </ul>
-        <p class="headline">Automação de processos financeiros com resultado medido.</p>
-        <p class="lead">Gosto de testar ideias, aprimorar processos e aprender na prática. Desenvolvi automações para rotinas financeiras com SQL, Snowflake, VBA, VBS e apoio de IA, reduzindo um processo de 44 horas para 2,6 horas por mês. Utilizo IA para acelerar a escrita e a revisão do código, enquanto conduzo a análise, a interpretação e a validação das regras de negócio. Atualmente, aprofundo meus conhecimentos em análise de dados e automação de processos, explorando novas ferramentas e aplicações de IA.</p>
+        <p class="headline" style="margin-top:36px">Automação de processos financeiros com resultado medido.</p>
+        <p class="lead">Gosto de testar ideias, aprimorar processos e aprender na prática. Automatizo rotinas financeiras com SQL, Snowflake, VBA, VBS e apoio de IA: a IA acelera o código, e eu cuido da regra de negócio e da validação.</p>
         <div class="cta">
           <a class="btn primary" href="#robo">Ver automações</a>
           <a class="btn" href="#demo">Usar o Concilia+</a>
           <a class="btn" href="#contato">Contato</a>
         </div>
-        <ul class="facts" aria-label="Resultados em números">
-          <li><b>−94%</b><span>de tempo no processo de reclassificação contábil</span></li>
-          <li><b>41 h/mês</b><span>liberadas da operação para análise</span></li>
-          <li><b>7</b><span>distribuidoras sob minha responsabilidade automatizadas</span></li>
-          <li><b>3</b><span>soluções de automação em uso na operação</span></li>
-        </ul>
+        <div class="win" aria-label="Principal resultado">
+          <p class="win-k">Projeto real · Grupo Equatorial Energia · Arrecadação</p>
+          <p class="win-t">Robô de reclassificação contábil no SAP ECC</p>
+          <ul class="facts">
+            <li><b>−94%</b><span>de tempo na reclassificação contábil</span></li>
+            <li><b>44h → 2,6h</b><span>por mês: 41 horas liberadas para análise</span></li>
+            <li><b>7</b><span>distribuidoras usando o robô</span></li>
+          </ul>
+          <p class="win-f">Além do robô, mais 2 soluções em uso na operação: o portal <b>Concilia+</b> e a <b>macro VBA</b> de conciliação. <a href="#robo">Ver os projetos →</a></p>
+        </div>
       </div>
     </div>
   </header>
@@ -781,7 +785,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
     <header>
       <p class="eyebrow">Perfil</p>
       <h2>Do processo manual à automação</h2>
-      <p class="lead">Olho para cada rotina perguntando o que pode ser automatizado. Minha base em Economia e finanças me ajuda a entender a regra do processo, e SQL, VBA, VBS, JavaScript e IA transformam essa regra em uma solução que roda sozinha, sempre do mesmo jeito.</p>
+      <p class="lead">Entendo a regra financeira do processo e transformo em uma solução que roda sozinha, sempre do mesmo jeito.</p>
     </header>
     <ol class="steps" aria-label="Como resolvo um problema">
       <li><h3>Entender a regra</h3><p>Começo pela regra financeira e contábil do processo: de onde vem cada valor, para onde vai e qual indicador ele afeta.</p></li>
@@ -798,7 +802,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
     <header>
       <p class="eyebrow">Automações em produção</p>
       <h2>Projetos e resultados na Arrecadação</h2>
-      <p class="lead">Três soluções que criei para a rotina da Executiva de Gestão e Operação da Arrecadação do Grupo Equatorial Energia. Cada projeto destaca o problema, a solução e o resultado operacional, facilitando a análise do impacto.</p>
+      <p class="lead">Três soluções que criei para a Arrecadação do Grupo Equatorial Energia, com problema, solução e resultado.</p>
     </header>
     <div class="pgrid">
       <article class="card pc">
@@ -916,6 +920,16 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 .ag-imp span{font-size:.9rem;color:var(--ink-soft)}
 @media (max-width:900px){.ag-imp{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.ag-imp{grid-template-columns:minmax(0,1fr)}}
+.ag-next{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.ag-next li{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;align-content:start;padding:16px;border:1px dashed var(--c3);border-radius:10px;background:var(--surface)}
+.ag-next li .ag-n{grid-row:span 2;border-color:var(--c3)}
+.ag-next b{font-family:var(--f-display);font-stretch:88%;font-size:1rem;color:var(--ink)}
+.ag-next span{font-size:.9rem;color:var(--ink-soft)}
+.ag-tags{display:flex;flex-wrap:wrap;gap:8px;justify-self:start}
+.ag-personal{display:inline-block;font:600 11px/1.4 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:#fff;background:#DC2626;border:1px solid #F87171;border-radius:999px;padding:2px 10px}
+.ag-next-note{margin:0 0 12px;color:var(--ink-soft);font-size:.95rem}
+@media (max-width:900px){.ag-next{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.ag-next{grid-template-columns:minmax(0,1fr)}}
 </style>
 <section class="blk" id="agente-ia">
   <div class="wrap">
@@ -928,13 +942,14 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
     <div class="pgrid">
       <article class="card pc" style="--k:var(--c2)">
         <div class="pc-main">
-          <span class="ag-badge">No ar</span>
+          <span class="ag-tags"><span class="ag-badge">No ar · em desenvolvimento</span><span class="ag-personal">Projeto pessoal</span></span>
           <h3>Orientação sobre procedimentos e regras de negócio</h3>
-          <p><b>Problema:</b> POPs longos geram interpretações diferentes, e quem é novo nem sempre se sente à vontade para perguntar de novo.</p>
-          <p><b>Solução:</b> a Essenza responde na hora com base no POP e mostra o passo a passo com telas. Se a resposta não estiver no POP, orienta procurar o gerente.</p>
-          <p><b>Segurança:</b> chave da API protegida no back-end (n8n).</p>
+          <p><b>Problema:</b> POP longo gera dúvidas, e quem é novo tem vergonha de perguntar de novo.</p>
+          <p><b>Solução:</b> guia a equipe nas etapas de uso do sistema da clínica (FluxoCerto), com base no POP, passo a passo e com telas.</p>
+          <p><b>Não inventa:</b> fora dos POPs, como "como fazer um bolo?", ela não responde e indica o gerente.</p>
+          <p><b>Segurança:</b> o back-end no Render vai guardar as chaves, tirando o webhook do HTML.</p>
           <ul class="chips"><li>n8n</li><li>Gemini API</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
-          <p class="plinks"><a class="btn primary" href="https://brendacarmosa-create.github.io/agenteIA_Essenza/" target="_blank" rel="noopener">Conversar com a Essenza</a><a class="btn" href="https://github.com/brendacarmosa-create/agenteIA_Essenza" target="_blank" rel="noopener">Ver o código</a></p>
+          <p class="plinks"><a class="btn primary" href="https://brendacarmosa-create.github.io/agenteIA_Essenza/" target="_blank" rel="noopener">Conversar com a Essenza</a></p>
         </div>
         <ol class="ag-flow" aria-label="Como a Essenza funciona">
           <li><i class="ag-n">1</i><div><b>Pergunta</b><span>A dúvida é enviada pela interface web.</span></div></li>
@@ -954,6 +969,16 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
       <li><b>Respostas em segundos</b><span>Passo a passo na hora, sem procurar em documentos.</span></li>
       <li><b>Mais tempo para a equipe</b><span>Menos interrupções para explicar a mesma coisa.</span></li>
     </ul>
+    <h3 class="ag-imp-t">Em desenvolvimento: o que ainda vou melhorar</h3>
+    <p class="ag-next-note">Já está no ar, mas ainda estou desenvolvendo. Próximos passos:</p>
+    <ol class="ag-next">
+      <li><i class="ag-n">1</i><b>Back-end no Render</b><span>Guardar as chaves no Render, fora do HTML.</span></li>
+      <li><i class="ag-n">2</i><b>Login e sessões</b><span>Controle de acesso por usuário (aberto por ser portfólio).</span></li>
+      <li><i class="ag-n">3</i><b>Limite de tokens</b><span>Cota por usuário e limite global do mês.</span></li>
+      <li><i class="ag-n">4</i><b>POPs no Supabase</b><span>Com RAG e banco vetorial. Hoje ficam no GitHub.</span></li>
+      <li><i class="ag-n">5</i><b>Monitorar perguntas</b><span>Registrar no Google Drive o que não está nos POPs.</span></li>
+      <li><i class="ag-n">6</i><b>Reaproveitar respostas</b><span>Reutilizar perguntas repetidas para economizar tokens.</span></li>
+    </ol>
   </div>
 </section>
 
@@ -962,7 +987,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
     <header>
       <p class="eyebrow">Finanças e estratégia</p>
       <h2>A base financeira por trás da automação</h2>
-      <p class="lead">Automatizar um processo financeiro exige conhecer a regra. Essa base vem da experiência em controladoria, planejamento financeiro e indicadores, da formação em Economia e da certificação CPA-20.</p>
+      <p class="lead">Automatizar um processo financeiro exige conhecer a regra. Essa base vem da controladoria, dos indicadores, da Economia e da CPA-20.</p>
     </header>
     <div class="cards">
       <article class="card">
@@ -1017,12 +1042,12 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
       <h2 class="h2-long">Conhecimentos técnicos e formação em Inteligência de Mercado e Análise de Dados</h2>
     </header>
     <div style="display:grid;gap:14px">
-      <p class="soft">Aprendo fazendo: cada ferramenta abaixo entrou na minha rotina porque um problema real pedia. A IA me ajuda a escrever e revisar o código, mas a parte mais importante fica comigo: validar. Confiro cada regra de negócio, comparo o resultado automatizado com o processo manual e só coloco em produção quando os números batem. Toque nos itens de “Cursando” e “Em desenvolvimento” para ver a disciplina do tecnólogo (Anhanguera).</p>
+      <p class="soft">Aprendo fazendo: cada ferramenta entrou na rotina porque um problema real pedia. A IA ajuda no código, e eu valido cada regra antes de colocar em produção. Toque em “Cursando” e “Em desenvolvimento” para ver a disciplina.</p>
       <div class="grade-grid kgrid">
         <div><h4>IA e automação de processos</h4><p class="mk-l">Atuais</p><ul class="chips"><li>Robô VBS no SAP ECC</li><li>Macros VBA</li><li>ETL Snowflake → Excel → SAP</li><li>IA aplicada ao desenvolvimento</li><li>Prompts para código e revisão</li></ul><p class="mk-l">Em aprendizado</p><ul class="chips dev"><li data-d="Editor de código com IA (vibe coding)">Cursor</li><li data-d="Plataforma de automação de fluxos e integrações">n8n</li><li data-d="Ferramenta de automação de fluxos de trabalho da Microsoft">Power Automate</li></ul><p class="mk-l">Em desenvolvimento</p><ul class="chips dev"><li data-d="Fundamentos de Machine Learning · 3ª série">Machine learning</li><li data-d="Data Mining · 4ª série">Data mining</li></ul><p class="dnote" aria-live="polite"></p></div>
-        <div><h4>Linguagens</h4><p class="mk-l">Atuais</p><ul class="chips"><li>SQL</li><li>VBA</li><li>VBS</li><li>JavaScript</li><li>HTML e CSS</li><li>DAX</li><li>Linguagem M</li></ul><p class="mk-l">Cursando</p><ul class="chips cur"><li data-d="Programação Orientada a Objetos para Dados · 1ª série">Python e POO para dados</li><li data-d="Lógica e Matemática Computacional · 1ª série">Lógica matemática</li><li data-d="Algoritmos e Programação Estruturada · 1ª série">Algoritmos</li><li data-d="Estrutura de Dados (listas, árvores AVL, grafos) · 2ª série">Estruturas de dados</li></ul><p class="dnote" aria-live="polite"></p></div>
+        <div><h4>Linguagens</h4><p class="mk-l">Atuais</p><ul class="chips"><li>SQL</li><li>VBA</li><li>VBS</li><li>DAX</li><li>Linguagem M</li><li>Lógica matemática</li><li>Algoritmos</li><li>Estruturas de dados</li></ul><p class="mk-l">Em aprendizado</p><ul class="chips dev"><li>JavaScript</li><li>HTML e CSS</li></ul><p class="mk-l">Cursando</p><ul class="chips cur"><li data-d="Programação Orientada a Objetos para Dados · 1ª série">Python e POO para dados</li></ul><p class="dnote" aria-live="polite"></p></div>
         <div><h4>Dados e nuvem</h4><p class="mk-l">Atuais</p><ul class="chips"><li>Snowflake</li><li>BigQuery</li><li>SQLite</li><li>Bancos relacionais</li><li>LGPD</li></ul><p class="mk-l">Cursando</p><ul class="chips cur"><li data-d="Modelagem de Dados · 2ª série">Modelagem de dados</li><li data-d="Arquitetura de Dados · 2ª série">Arquitetura de dados</li><li data-d="Segurança de Dados · 2ª série">Segurança de dados</li><li data-d="Bancos de Dados em Nuvem · 2ª série">Bancos em nuvem</li></ul><p class="mk-l">Em desenvolvimento</p><ul class="chips dev"><li data-d="Em aprendizado">APIs</li><li data-d="Em aprendizado">Git e GitHub Pages</li><li data-d="Engenharia de Dados · 3ª série">Engenharia de dados</li><li data-d="Programação e Desenvolvimento de Banco de Dados · 3ª série">Desenvolvimento de banco de dados</li><li data-d="Bancos de Dados Não Relacionais · 4ª série">NoSQL</li><li data-d="Governança de Dados · 5ª série">Governança de dados</li></ul><p class="dnote" aria-live="polite"></p></div>
-        <div><h4>BI e análise de dados</h4><p class="mk-l">Atuais</p><ul class="chips"><li>Power BI</li><li>Power Query</li><li>Excel avançado</li></ul><p class="mk-l">Em desenvolvimento</p><ul class="chips dev"><li data-d="Probabilidade e Estatística para Análise de Dados · 3ª série">Estatística</li><li data-d="Análise Exploratória de Dados · 4ª série">Análise exploratória</li><li data-d="Monitoramento e Indicadores · 4ª série">Monitoramento e indicadores</li><li data-d="Desenvolvimento e Monitoramento de Dashboards · 5ª série">Dashboards</li><li data-d="Visualização de Dados e Storytelling · 5ª série">Storytelling com dados</li></ul><p class="dnote" aria-live="polite"></p></div>
+        <div><h4>BI e análise de dados</h4><p class="mk-l">Atuais</p><ul class="chips"><li>Power BI</li><li>Power Query</li><li>Excel avançado</li><li>Dashboards</li><li>Monitoramento e indicadores</li></ul><p class="mk-l">Em desenvolvimento</p><ul class="chips dev"><li data-d="Probabilidade e Estatística para Análise de Dados · 3ª série">Estatística</li><li data-d="Análise Exploratória de Dados · 4ª série">Análise exploratória</li><li data-d="Visualização de Dados e Storytelling · 5ª série">Storytelling com dados</li></ul><p class="dnote" aria-live="polite"></p></div>
       </div>
     </div>
   </div>
@@ -1243,108 +1268,9 @@ requestAnimationFrame(draw);
 
 document.addEventListener('click',function(e){var li=e.target.closest&&e.target.closest('.chips li[data-d]');if(!li)return;var card=li.closest('div'),n=card.querySelector('.dnote');if(!n)return;card.querySelectorAll('.chips li[data-d]').forEach(function(x){if(x!==li)x.classList.remove('on')});n.textContent=li.classList.contains('on')?(li.dataset.d==='Em aprendizado'?'Em aprendizado.':'Disciplina: '+li.dataset.d):''});
 </script>
-<style id="folhas-css">
-/* Efeito "passar a página": cada seção sobe como uma folha sobre a anterior */
-body{overflow-x:clip}
-.sheet-anchor{height:0;margin:0;padding:0;pointer-events:none}
-html.sheets section.blk{
-  position:sticky;
-  margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px))) calc(-1*max(16px,env(safe-area-inset-right,0px)));
-  padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px));
-  --sheet:#120A1E;
-  background:linear-gradient(180deg,color-mix(in srgb,var(--sc) 13%,var(--sheet)) 0%,var(--sheet) 46%);
-  border-radius:26px 26px 0 0;
-  box-shadow:0 -1px 0 color-mix(in srgb,var(--sc) 55%,transparent),0 -10px 28px rgba(0,0,0,.45);
-  transform-origin:0 0;
-  will-change:transform;
-  padding-block:clamp(40px,6vw,72px) clamp(56px,8vw,96px)!important;
-}
-html.sheets section.blk::before{border-radius:26px 26px 0 0}
-/* um tom de fundo diferente para cada folha */
-html.sheets section.blk:nth-of-type(1){--sheet:#150A22;z-index:2}
-html.sheets section.blk:nth-of-type(2){--sheet:#1C0A1D;z-index:3}
-html.sheets section.blk:nth-of-type(3){--sheet:#140D26;z-index:4}
-html.sheets section.blk:nth-of-type(4){--sheet:#1E0B1A;z-index:5}
-html.sheets section.blk:nth-of-type(5){--sheet:#110B24;z-index:6}
-html.sheets section.blk:nth-of-type(6){--sheet:#1A0A20;z-index:7}
-html.sheets section.blk:nth-of-type(7){--sheet:#160C26;z-index:8}
-html.sheets section.blk:nth-of-type(8){--sheet:#1F0B1C;z-index:9}
-html.sheets section.blk:nth-of-type(9){--sheet:#120A22;z-index:10}
-html.sheets section.blk:nth-of-type(10){--sheet:#1B0A1F;z-index:11}
-html.sheets section.blk:nth-of-type(11){--sheet:#140B24;z-index:12}
-html.sheets section.blk:nth-of-type(12){--sheet:#1C0A1D;z-index:13}
-@media (max-width:640px){html.sheets section.blk{border-radius:18px 18px 0 0}}
-</style>
-<script id="folhas-js">
-(function(){
-  try{
-    if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    if(!(window.CSS&&CSS.supports&&CSS.supports('position','sticky'))) return;
-    var root=document.documentElement;
-    var secs=Array.prototype.slice.call(document.querySelectorAll('section.blk'));
-    if(!secs.length) return;
-    /* marcadores fixos para os links do menu continuarem levando ao lugar certo */
-    var marks=secs.map(function(s){var m=document.createElement('div');m.className='sheet-anchor';m.setAttribute('aria-hidden','true');s.parentNode.insertBefore(m,s);return m});
-    root.classList.add('sheets');
-    function tops(){secs.forEach(function(s){s.style.top=Math.min(0,innerHeight-s.offsetHeight)+'px'})}
-    var ticking=false;
-    function tilt(){
-      ticking=false;
-      var vh=innerHeight,max=innerWidth<=700?0.6:1.2;
-      secs.forEach(function(s,i){
-        var top=s.getBoundingClientRect().top;
-        /* a folha entra inclinada e endireita até chegar a um terço da tela */
-        var p=(vh-top)/(vh*0.28); p=p<0?0:p>1?1:p;
-        var k=s.id==='demo'?0.4:1;
-        var a=max*k*(1-p)*(1-p);
-        s.style.transform=a>0.01?'rotate('+a.toFixed(3)+'deg)':'none';
-      });
-    }
-    function req(){if(!ticking){ticking=true;requestAnimationFrame(tilt)}}
-    tops();tilt();
-    addEventListener('scroll',req,{passive:true});
-    addEventListener('resize',function(){tops();req()});
-    addEventListener('load',function(){tops();req()});
-    if('ResizeObserver' in window){var ro=new ResizeObserver(function(){tops();req()});secs.forEach(function(s){ro.observe(s)})}
-    /* links internos: rola até a posição real da seção */
-    document.addEventListener('click',function(e){
-      var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;
-      var id=a.getAttribute('href').slice(1);
-      var i=secs.findIndex(function(s){return s.id===id});
-      var y;
-      if(i>=0){y=marks[i].getBoundingClientRect().top+scrollY}
-      else{var t=id&&document.getElementById(id);if(!t)return;var sec=t.closest('section.blk');if(!sec)return;var j=secs.indexOf(sec);y=marks[j].getBoundingClientRect().top+scrollY}
-      e.preventDefault();
-      scrollTo({top:Math.max(0,y),behavior:'smooth'});
-      history.replaceState(null,'','#'+id);
-    });
-  }catch(err){document.documentElement.classList.remove('sheets')}
-})();
-</script>
-<style id="fundo-economia">
-/* Fundo animado de economia: gráfico de linha, velas e indicadores correndo atrás de cada seção */
-:root{--chart:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22900%22%20height%3D%22460%22%20viewBox%3D%220%200%20900%20460%22%3E%0A%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%20points%3D%220%2C330%2045%2C318%2090%2C326%20135%2C296%20180%2C304%20225%2C270%20270%2C282%20315%2C246%20360%2C258%20405%2C222%20450%2C236%20495%2C200%20540%2C214%20585%2C180%20630%2C196%20675%2C160%20720%2C172%20765%2C140%20810%2C156%20855%2C120%20900%2C330%22/%3E%0A%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.5%22%20stroke-dasharray%3D%226%206%22%20points%3D%220%2C200%2060%2C210%20120%2C190%20180%2C220%20240%2C205%20300%2C230%20360%2C212%20420%2C240%20480%2C226%20540%2C250%20600%2C236%20660%2C262%20720%2C244%20780%2C270%20840%2C252%20900%2C200%22/%3E%0A%3Cg%20fill%3D%22%23000%22%3E%0A%3Crect%20x%3D%2240%22%20y%3D%22380%22%20width%3D%2212%22%20height%3D%2240%22/%3E%3Crect%20x%3D%2245%22%20y%3D%22370%22%20width%3D%222%22%20height%3D%2260%22/%3E%0A%3Crect%20x%3D%2270%22%20y%3D%22392%22%20width%3D%2212%22%20height%3D%2226%22/%3E%3Crect%20x%3D%2275%22%20y%3D%22384%22%20width%3D%222%22%20height%3D%2242%22/%3E%0A%3Crect%20x%3D%22100%22%20y%3D%22372%22%20width%3D%2212%22%20height%3D%2244%22/%3E%3Crect%20x%3D%22105%22%20y%3D%22362%22%20width%3D%222%22%20height%3D%2262%22/%3E%0A%3Crect%20x%3D%22130%22%20y%3D%22386%22%20width%3D%2212%22%20height%3D%2230%22/%3E%3Crect%20x%3D%22135%22%20y%3D%22378%22%20width%3D%222%22%20height%3D%2246%22/%3E%0A%3Crect%20x%3D%22160%22%20y%3D%22366%22%20width%3D%2212%22%20height%3D%2248%22/%3E%3Crect%20x%3D%22165%22%20y%3D%22356%22%20width%3D%222%22%20height%3D%2266%22/%3E%0A%3Crect%20x%3D%22190%22%20y%3D%22378%22%20width%3D%2212%22%20height%3D%2234%22/%3E%3Crect%20x%3D%22195%22%20y%3D%22370%22%20width%3D%222%22%20height%3D%2250%22/%3E%0A%3Crect%20x%3D%22520%22%20y%3D%2260%22%20width%3D%2218%22%20height%3D%2290%22%20opacity%3D%22.7%22/%3E%3Crect%20x%3D%22546%22%20y%3D%2240%22%20width%3D%2218%22%20height%3D%22110%22%20opacity%3D%22.7%22/%3E%3Crect%20x%3D%22572%22%20y%3D%2274%22%20width%3D%2218%22%20height%3D%2276%22%20opacity%3D%22.7%22/%3E%3Crect%20x%3D%22598%22%20y%3D%2222%22%20width%3D%2218%22%20height%3D%22128%22%20opacity%3D%22.7%22/%3E%0A%3C/g%3E%0A%3Cg%20font-family%3D%22monospace%22%20font-weight%3D%22700%22%20fill%3D%22%23000%22%3E%0A%3Ctext%20x%3D%22300%22%20y%3D%2260%22%20font-size%3D%2226%22%3ER%24%3C/text%3E%3Ctext%20x%3D%22720%22%20y%3D%22420%22%20font-size%3D%2222%22%3EIPCA%3C/text%3E%3Ctext%20x%3D%22420%22%20y%3D%22410%22%20font-size%3D%2220%22%3ESelic%3C/text%3E%0A%3Ctext%20x%3D%2280%22%20y%3D%22110%22%20font-size%3D%2224%22%3E%25%3C/text%3E%3Ctext%20x%3D%22800%22%20y%3D%2270%22%20font-size%3D%2222%22%3EPIB%3C/text%3E%3Ctext%20x%3D%22250%22%20y%3D%22420%22%20font-size%3D%2224%22%3E%26%238599%3B%3C/text%3E%0A%3Ctext%20x%3D%22660%22%20y%3D%22330%22%20font-size%3D%2222%22%3E%26%23931%3B%3C/text%3E%3Ctext%20x%3D%22160%22%20y%3D%22250%22%20font-size%3D%2218%22%3E%2B12%25%3C/text%3E%0A%3C/g%3E%3C/svg%3E")}
-body{background:radial-gradient(1200px 700px at 12% -8%,rgba(192,132,252,.26),transparent 60%),radial-gradient(900px 600px at 100% 12%,rgba(244,114,182,.16),transparent 60%),radial-gradient(900px 700px at 40% 108%,rgba(196,181,253,.12),transparent 60%),var(--paper)}
-.headline,.contact-line{background-image:linear-gradient(100deg,#fff 0%,#E9D5FF 30%,#F9A8D4 62%,#C4B5FD 100%)}
-section.blk{isolation:isolate}
-section.blk::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;border-radius:inherit;
-  background:var(--sc);opacity:.13;
-  -webkit-mask-image:var(--chart);mask-image:var(--chart);
-  -webkit-mask-size:900px 460px;mask-size:900px 460px;
-  -webkit-mask-repeat:repeat;mask-repeat:repeat;
-  animation:ticker 48s linear infinite}
-section.blk:nth-of-type(even)::after{animation-duration:62s;animation-direction:reverse;-webkit-mask-position:450px 120px;mask-position:450px 120px}
-html.sheets section.blk{background:
-  repeating-linear-gradient(0deg,color-mix(in srgb,var(--sc) 8%,transparent) 0 1px,transparent 1px 64px),
-  repeating-linear-gradient(90deg,color-mix(in srgb,var(--sc) 8%,transparent) 0 1px,transparent 1px 64px),
-  linear-gradient(180deg,color-mix(in srgb,var(--sc) 14%,var(--sheet)) 0%,var(--sheet) 46%)}
-section.blk > *{position:relative;z-index:1}
-@keyframes ticker{from{-webkit-mask-position:0 0;mask-position:0 0}to{-webkit-mask-position:-900px 0;mask-position:-900px 0}}
-/* pulso de "ao vivo" no topo de cada seção */
-section.blk::before{animation:pulse 3.2s ease-in-out infinite}
-@keyframes pulse{50%{opacity:.35}}
-@media (prefers-reduced-motion:reduce){section.blk::after,section.blk::before{animation:none}}
-</style>
+
+
+
 <style id="pipe-css">
 .pipe{list-style:none;margin:4px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;counter-reset:none}
 .pipe li{position:relative;display:grid;gap:2px;padding:12px 14px;border:1px solid var(--rule);border-radius:12px;background:var(--surface);backdrop-filter:blur(6px)}
@@ -1359,6 +1285,45 @@ section.blk::before{animation:pulse 3.2s ease-in-out infinite}
 #conhecimentos .grade-grid.kgrid{display:grid!important;columns:auto!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;align-items:start}
 #conhecimentos .grade-grid.kgrid>div{break-inside:auto;margin:0!important}
 @media (max-width:760px){#conhecimentos .grade-grid.kgrid{grid-template-columns:minmax(0,1fr)!important}}
+</style>
+<style id="estilo-b">
+/* Visual B: dashboard de dados, leitura limpa */
+:root{
+ --paper:#0b1020; --surface:#121a33; --ink:#f1f5ff; --ink-soft:#a3aecb; --rule:#232d4d;
+ --accent:#7c8cff; --accent-ink:#c7ceff; --accent-soft:#1b2252; --on-accent:#0b1020;
+ --c1:#7c8cff; --c2:#22d3ee; --c3:#a5b4fc; --c4:#38bdf8; --c5:#818cf8;
+ --f-display:"Inter",system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+ --f-body:"Inter",system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+}
+body{background:var(--paper);background-image:radial-gradient(900px 600px at 85% -10%,rgba(124,140,255,.16),transparent 60%),radial-gradient(700px 500px at -10% 110%,rgba(34,211,238,.10),transparent 60%);background-attachment:fixed;font-size:16.5px;line-height:1.65}
+h1,h2{font-stretch:normal;text-transform:none;letter-spacing:-.02em;font-weight:800;line-height:1.08}
+h2{font-size:clamp(1.8rem,4vw,2.6rem)}
+h3{font-stretch:normal}
+.blk{border-top:1px solid var(--rule)}
+section.blk h2::after{height:3px;width:56px;box-shadow:none;background:linear-gradient(90deg,var(--c1),var(--c2))}
+.card,.edu li,.ag-imp li,.ag-next li,.know li,.grade-grid>div,.areas>div,.steps li,.tl li,.mkt>div,.rules{border-radius:14px!important}
+.card{background:var(--surface);border-color:var(--rule)}
+.lead{color:var(--ink-soft);max-width:40em}
+.top{border-bottom:1px solid var(--rule)}
+@media (max-width:700px){.top nav{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:18px;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}.top nav a{white-space:nowrap}}
+.top nav a{font-size:.88rem}
+.hero .headline{font-family:var(--f-display);font-weight:800;letter-spacing:-.025em;line-height:1.05;text-transform:none;font-stretch:normal;background:linear-gradient(90deg,#f1f5ff 40%,#a5b4fc 75%,#22d3ee);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h1.name{color:var(--ink-soft)}
+.edu-t{margin:16px 0 10px;font:500 12px/1.4 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink)}
+.facts b{font-stretch:normal;letter-spacing:-.02em;background:linear-gradient(90deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.eyebrow{color:var(--c2)!important}
+.chips li{border-radius:8px}
+html body section.blk h2,html body h2,html body .contact-line{font-family:"Inter",system-ui,"Segoe UI",Arial,sans-serif!important;font-weight:800!important;letter-spacing:-.02em!important;line-height:1.1!important}
+html body .logo-t b{font-family:"Inter",system-ui,Arial,sans-serif!important;font-weight:800!important;font-size:1.3rem!important;letter-spacing:-.01em!important}
+html body .logo-t b i{font-style:normal;color:var(--c1)}
+.win{margin-top:40px;padding:24px 26px;border:1px solid var(--rule);border-radius:16px;background:linear-gradient(135deg,rgba(124,140,255,.10),rgba(34,211,238,.05));display:grid;gap:6px}
+.win-k{margin:0;font:500 12px/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--c2)}
+.win-t{margin:0;font-size:1.25rem;font-weight:700;color:var(--ink)}
+.win .facts{margin:14px 0 6px;padding:18px 0 0;border-top:1px solid var(--rule);gap:18px 56px}
+.win .facts{align-items:flex-start}.win .facts li{align-content:start;max-width:220px}
+.win-f{margin:4px 0 0;font-size:.95rem;color:var(--ink-soft)}
+.win-f a{color:var(--c2);font-weight:600;text-decoration:none;white-space:nowrap}
 </style>
 </body>
 </html>
