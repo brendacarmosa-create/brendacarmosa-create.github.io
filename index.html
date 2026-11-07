@@ -728,6 +728,24 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 </head>
 <body>
 <div id="prog" aria-hidden="true"></div>
+<div class="eco" aria-hidden="true">
+ <div class="eco-grid"></div>
+ <svg viewBox="0 0 2560 800" preserveAspectRatio="none">
+  <polyline fill="none" stroke="rgba(124,140,255,.16)" stroke-width="2.5" points="0,560 120,540 240,555 360,500 480,515 600,470 720,480 840,430 960,445 1080,400 1200,420 1280,560 1400,540 1520,555 1640,500 1760,515 1880,470 2000,480 2120,430 2240,445 2360,400 2480,420 2560,560"/>
+  <polyline fill="none" stroke="rgba(34,211,238,.12)" stroke-width="1.5" stroke-dasharray="6 7" points="0,360 160,380 320,350 480,395 640,370 800,410 960,385 1120,425 1280,360 1440,380 1600,350 1760,395 1920,370 2080,410 2240,385 2400,425 2560,360"/>
+  <g fill="rgba(124,140,255,.12)">
+   <rect x="60" y="680" width="12" height="50"/><rect x="100" y="700" width="12" height="30"/><rect x="140" y="670" width="12" height="60"/><rect x="180" y="690" width="12" height="40"/>
+   <rect x="660" y="690" width="12" height="40"/><rect x="700" y="675" width="12" height="55"/><rect x="740" y="700" width="12" height="30"/>
+   <rect x="1340" y="680" width="12" height="50"/><rect x="1380" y="700" width="12" height="30"/><rect x="1420" y="670" width="12" height="60"/><rect x="1460" y="690" width="12" height="40"/>
+   <rect x="1940" y="690" width="12" height="40"/><rect x="1980" y="675" width="12" height="55"/><rect x="2020" y="700" width="12" height="30"/>
+  </g>
+ </svg>
+ <div class="tick" style="right:12%;top:16%">Selic <b>▲</b></div>
+ <div class="tick" style="right:6%;top:44%;animation-delay:-3s">IPCA <b>●</b></div>
+ <div class="tick" style="left:4%;top:90%;animation-delay:-5s">PIB <b>▲</b></div>
+ <div class="tick" style="right:18%;top:86%;animation-delay:-2s">USD/BRL <b>▼</b></div>
+</div>
+
 
 <div class="wrap">
   <div class="top">
@@ -782,6 +800,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="perfil">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">01 · PERFIL</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Perfil</p>
       <h2>Do processo manual à automação</h2>
@@ -799,6 +818,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="robo">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">02 · AUTOMAÇÕES</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Automações em produção</p>
       <h2>Projetos e resultados na Arrecadação</h2>
@@ -841,6 +861,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="projeto">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">03 · CONCILIA+</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Projeto em destaque</p>
       <h2>Concilia+</h2>
@@ -877,6 +898,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="demo">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">04 · DEMONSTRAÇÃO</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Demonstração interativa</p>
       <h2>Use o portal</h2>
@@ -933,6 +955,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 </style>
 <section class="blk" id="agente-ia">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">05 · AGENTE DE IA</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Inteligência artificial</p>
       <h2>Assistente Essenza</h2>
@@ -973,7 +996,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
     <p class="ag-next-note">Já está no ar, mas ainda estou desenvolvendo. Próximos passos:</p>
     <ol class="ag-next">
       <li><i class="ag-n">1</i><b>Back-end no Render</b><span>Guardar as chaves no Render, fora do HTML.</span></li>
-      <li><i class="ag-n">2</i><b>Login e sessões</b><span>Controle de acesso por usuário (aberto por ser portfólio).</span></li>
+      <li><i class="ag-n">2</i><b>Segurança e autenticação</b><span>Controle de acesso e sessões individuais por usuário (aberto por ser portfólio).</span></li>
       <li><i class="ag-n">3</i><b>Limite de tokens</b><span>Cota por usuário e limite global do mês.</span></li>
       <li><i class="ag-n">4</i><b>POPs no Supabase</b><span>Com RAG e banco vetorial. Hoje ficam no GitHub.</span></li>
       <li><i class="ag-n">5</i><b>Monitorar perguntas</b><span>Registrar no Google Drive o que não está nos POPs.</span></li>
@@ -984,6 +1007,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="financas">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">06 · FINANÇAS</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Finanças e estratégia</p>
       <h2>A base financeira por trás da automação</h2>
@@ -1020,6 +1044,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="certificacoes">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">07 · CERTIFICAÇÕES</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Certificações</p>
       <h2>Certificações e cursos</h2>
@@ -1037,6 +1062,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="conhecimentos">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">08 · CONHECIMENTOS</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Tecnologia</p>
       <h2 class="h2-long">Conhecimentos técnicos e formação em Inteligência de Mercado e Análise de Dados</h2>
@@ -1055,6 +1081,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="intercambio">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">09 · INTERCÂMBIO</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Intercâmbio</p>
       <h2>Seis meses na Argentina</h2>
@@ -1071,6 +1098,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="trajetoria">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">10 · TRAJETÓRIA</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Trajetória</p>
       <h2>Experiência</h2>
@@ -1089,6 +1117,7 @@ section.blk h2.h2-long{font-size:clamp(1.55rem,3.4vw,2.35rem)!important;max-widt
 
 <section class="blk" id="contato">
   <div class="wrap">
+    <div class="divider" aria-hidden="true"><span class="n">11 · CONTATO</span><span class="dot"></span></div>
     <header>
       <p class="eyebrow">Contato</p>
       <p class="contact-line">Aberta a oportunidades de estágio em finanças, estratégia e automação de processos.</p>
@@ -1324,6 +1353,23 @@ html body .logo-t b i{font-style:normal;color:var(--c1)}
 .win .facts{align-items:flex-start}.win .facts li{align-content:start;max-width:220px}
 .win-f{margin:4px 0 0;font-size:.95rem;color:var(--ink-soft)}
 .win-f a{color:var(--c2);font-weight:600;text-decoration:none;white-space:nowrap}
+.eco{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.eco svg{position:absolute;left:0;top:0;width:200%;height:100%;animation:eco-drift 40s linear infinite}
+@keyframes eco-drift{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.eco-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(124,140,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(124,140,255,.05) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(ellipse at 50% 40%,#000 30%,transparent 80%);mask-image:radial-gradient(ellipse at 50% 40%,#000 30%,transparent 80%)}
+.tick{position:absolute;font:500 13px "IBM Plex Mono",monospace;color:rgba(165,180,252,.28);white-space:nowrap;animation:eco-float 9s ease-in-out infinite}
+.tick b{color:rgba(34,211,238,.45);font-weight:500}
+@keyframes eco-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@media (prefers-reduced-motion:reduce){.eco svg,.tick{animation:none}}
+@media (max-width:700px){.tick{display:none}}
+section.blk{background:transparent!important;border-top:0!important}
+section.blk::before{display:none!important}
+.divider{position:relative;display:flex;align-items:center;gap:14px;margin:0 0 34px}
+.divider::before{content:"";flex:0 0 40px;height:2px;background:linear-gradient(90deg,transparent,var(--c1))}
+.divider::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--c1),var(--c2) 40%,rgba(34,211,238,0))}
+.divider .n{font:600 12px "IBM Plex Mono",monospace;letter-spacing:.12em;color:var(--paper);background:linear-gradient(90deg,var(--c1),var(--c2));padding:5px 12px;border-radius:999px;white-space:nowrap}
+.divider .dot{position:absolute;right:0;width:8px;height:8px;border-radius:50%;background:var(--c2);box-shadow:0 0 12px var(--c2)}
+.top{position:relative;z-index:2}
 </style>
 </body>
 </html>
