@@ -45,7 +45,7 @@ Meus projetos no setor de Arrecadação da Equatorial, levando melhorias e autom
 | **CPA-20** | ANBIMA | Certificação por exame (jul/2024), ativa até jul/2027 | Área do Profissional ANBIMA |
 | Microsoft Power BI para Business Intelligence e Data Science | Data Science Academy | 72 h · 100% de aproveitamento | Código `69e3d80de6b63d059104cd95` |
 | SQL, Structured Query Language | FGV Online | 24 h | Nº de série `15168085.43669.OEG_SQL_25-1` |
-| Privacidade e Proteção de Dados (LGPD) | SENAI São Paulo | 4 h (nov/2026) | [Validar no SENAI](https://www.sp.senai.br/consulta-certificado?qrcode=00035588/8647764) |
+| Lei Geral de Proteção de Dados Pessoais(LGPD) | SENAI São Paulo | 4 h (nov/2026) | [Validar no SENAI](https://www.sp.senai.br/consulta-certificado?qrcode=00035588/8647764) |
 | Fundamentos de Data Science e Inteligência Artificial | Data Science Academy | 24 h · 94% de aproveitamento | — |
 | Supermaratona de Power BI: do iniciante ao avançado | RM Cursos e Treinamentos | 20 h | — |
 | Indicadores Financeiros | Airton Andrade | 3 h | — |
