@@ -24,9 +24,12 @@ Meus projetos no setor de Arrecadação da Equatorial, levando melhorias e autom
 | **Portal Concilia+** | 💼 Real · Equatorial | Mostra as contas que mais pesam na diferença entre Contabilidade e NT e acompanha o realizado de cada distribuidora contra a meta | Apresentado na reunião de resultados do setor de Arrecadação | HTML, CSS, JavaScript, SheetJS, IndexedDB |
 | **Macro VBA de conciliação** | 💼 Real · Equatorial | Concilia débitos e créditos de BB e Cartão com um clique e gera a guia Consolidado | Fim do retrabalho diário em 5 distribuidoras | VBA, Excel |
 | **Pirâmide etária de São Luís** | 📊 Real · Dados públicos | Projeta a população de São Luís para 2025 com o Censo 2022 (API do IBGE) e os nascimentos e óbitos de 2022 a 2025 (DATASUS) | Nascimentos −13% em 3 anos e envelhecimento da população | Python, Pandas, Matplotlib, API IBGE |
+| **Dashboards em Power BI** | 🎓 Curso · Data Science Academy | Mini-projeto de Campanha de Marketing (4 páginas: cliente, comportamento de compra, campanhas e ponto de venda) e Dashboard de Vendas Globais, com as bases fornecidas pelo curso | 977 clientes analisados · 16% de resposta às campanhas | Power BI, Power Query, DAX |
 | **Assistente Essenza** | 🧑‍💻 Pessoal (estudo) | Agente de IA que orienta a equipe de uma clínica fictícia com base nos POPs, sem inventar respostas | No ar, em desenvolvimento | n8n, Gemini API, JavaScript |
 
 🧪 O site tem uma **demonstração interativa do Concilia+** com dados fictícios.
+
+📈 Veja os dashboards de Power BI na seção **Power BI** do site.
 
 📊 Veja a projeção de São Luís: https://github.com/brendacarmosa-create/projeto_real_PROJECAO_PIRAMIDE_ETARIA_S-O_LUIS_MA
 
